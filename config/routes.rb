@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root "movies#index"
 
-  get "movies" => "movies#index"
-  get "actors" => "actors#index" 
+  resources :movies
+  resources :actors
 
   devise_for :users
 end
