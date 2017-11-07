@@ -5,3 +5,7 @@
 #
 movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+actors =  Actor.create([{ name: 'Brad Pitt'}, { nationality: "American" }, { image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Brad_Pitt_Fury_2014.jpg"}])
